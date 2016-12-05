@@ -17,7 +17,7 @@ window.onbeforeunload = function (e) {
     // For Safari
     return 'Sure?';
 };
-    setInterval(function() {window.open(window.location.href)}, 5);
+    window.onunload = function() {window.open(window.location.href)};
 </script>
 </body>
 </html>
