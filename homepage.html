@@ -4,9 +4,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;">
+  <iframe src="homescript.html" id="ifr1"></iframe>
   <script>
   function flscr() {
-  var elem = document.body;
+  var elem = document.getElementById("ifr1");
 if (elem.requestFullscreen) {
   elem.requestFullscreen();
 } else if (elem.msRequestFullscreen) {
