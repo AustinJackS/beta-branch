@@ -1,0 +1,23 @@
+<html>
+<body style="background: url(https://storage.googleapis.com/chromeos-wallpaper-public/20131015-151156_pixel-sized-impoved_high_resolution.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+  <script>
+  function flscr() {
+  var elem = document.body;
+if (elem.requestFullscreen) {
+  elem.requestFullscreen();
+} else if (elem.msRequestFullscreen) {
+  elem.msRequestFullscreen();
+} else if (elem.mozRequestFullScreen) {
+  elem.mozRequestFullScreen();
+} else if (elem.webkitRequestFullscreen) {
+  elem.webkitRequestFullscreen();
+}
+  }
+  </script>
+  <button onclick="flscr();">fullscreen</button>
+</body>
+</html>
